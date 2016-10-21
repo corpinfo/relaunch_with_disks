@@ -1,4 +1,4 @@
-# relaunch_keep_disks.py
+# relaunch_with_disks.py
 
  This will move a host from one subnet to another. It'll do the following:
  1. create an identical EC2 instance in the destination subnet
@@ -18,8 +18,8 @@ Source instance must have a name.
 
 To get usage for using this script, get the full help:
 
-```python relaunch_keep_disks.py --help```
+```python relaunch_with_disks.py --help```
 
 
 ## Example
-```python relaunch_keep_disks.py --source-id i-7654345ac --subnet-id subnet-6543abba --aws-profile default --security-groups sg-abcd1234,sg-4321abba,sg-8765bbcc```
+```python relaunch_with_disks.py --source-id i-7654345ac --subnet-id subnet-6543abba --aws-profile default --security-groups sg-abcd1234,sg-4321abba,sg-8765bbcc```
