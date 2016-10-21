@@ -18,10 +18,10 @@
 ## - No network adapters will move. Any ENIs will have to be reallocated.
 ##
 ## To get usage for using this script, get the full help:
-## python relaunch_instance_while_keeping_disks.py --help
+## python relaunch_keep_disks.py --help
 ##
 ## example:
-## python relaunch_instance_while_keeping_disks.py --source-id i-7654345ac \
+## python relaunch_keep_disks.py --source-id i-7654345ac \
 ##    --subnet-id subnet-6543abba \
 ##    --aws-profile default \
 ##    --security-groups sg-abcd1234,sg-4321abba,sg-8765bbcc

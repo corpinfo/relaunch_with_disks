@@ -10,9 +10,11 @@
 
 
 ## Notable
-The -s/--source-id option is required. All others are optional however, be smart about it. If you move across VPCs you'll need security groups too because those are VPC specific. Most errors are pretty self explanitory. Source instance must have a name.
+The -s/--source-id option is required. All others are optional however, be smart about it. If you move across VPCs you'll need security groups too because those are VPC specific. Most errors are pretty self explanitory.
 
 No network adapters will move. Any ENIs will have to be reallocated.
+
+Source instance must have a name.
 
 To get usage for using this script, get the full help:
 
